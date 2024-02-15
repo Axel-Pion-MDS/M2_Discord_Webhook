@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='EasyDiscordWebhookMessage',
-    version='1.0.0',
+    version='1.0.1',
     packages=find_packages(),
     install_requires=[
         "discord-webhook"
@@ -20,13 +20,13 @@ setup(
     Install the package using pip:
 
     ```bash
-    pip install discord_webhook_easy_message
+    pip install easy_discord_webhook_message
     ```
 
     ## Usage
 
     ```python
-    from discord_webhook_easy_message import Webhook
+    from easy_discord_webhook_message import Webhook
 
     # Create an instance of the Webhook class
     webhook_instance = Webhook()
