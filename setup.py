@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='discordWebhookEasyMessage',
+    name='EasyDiscordWebhookMessage',
     version='1.0.0',
     packages=find_packages(),
     install_requires=[
@@ -11,7 +11,7 @@ setup(
     author_email='maengdok@outlook.com',
     description='A Python package for easily sending messages through Discord webhooks',
     long_description="""
-    # discord_webhook_easy_message
+    # Easy Discord Webhook Message
 
     A Python package for easily sending messages through Discord webhooks.
 
